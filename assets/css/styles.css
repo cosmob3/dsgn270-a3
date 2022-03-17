@@ -1,0 +1,65 @@
+/* Page Layout */
+* {
+  margin: 0px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: fit-content;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+/* SVG styling */
+
+.outer_flash {
+  fill: #003e1f;
+}
+
+.inner_flash {
+  fill: #d5f2e3;
+}
+
+.top_rec {
+  fill: #73ba9b;
+}
+
+.bottom_rec {
+  fill: #003e1f;
+}
+
+.bottom_rec_stroke {
+  fill: #73ba9b;
+}
+
+.button {
+  fill: #ba2d0b;
+}
+
+.left_vector {
+  stroke: #01110a;
+}
+
+.central_circle {
+  fill: #01110a;
+}
+
+.lower_circle {
+  fill: #01110a;
+}
+
+.right_vector {
+  stroke: #01110a;
+}
+
+.logo_text {
+  fill: #d5f2e3;
+}
